@@ -1,0 +1,191 @@
+.xs-col-1 {
+    @include grid-column(1, $extra-small-neat-grid);
+}
+
+.xs-col-2 {
+    @include grid-column(2, $extra-small-neat-grid);
+}
+
+.xs-col-3 {
+    @include grid-column(3, $extra-small-neat-grid);
+}
+
+.xs-col-4 {
+    @include grid-column(4, $extra-small-neat-grid);
+}
+
+.sm-col-1 {
+    @include grid-column(1, $small-neat-grid);
+}
+
+.sm-col-2 {
+    @include grid-column(2, $small-neat-grid);
+}
+
+.sm-col-3 {
+    @include grid-column(3, $small-neat-grid);
+}
+
+.sm-col-4 {
+    @include grid-column(4, $small-neat-grid);
+}
+
+.sm-col-5 {
+    @include grid-column(5, $small-neat-grid);
+}
+
+.sm-col-6 {
+    @include grid-column(6, $small-neat-grid);
+}
+
+.sm-col-7 {
+    @include grid-column(7, $small-neat-grid);
+}
+
+.sm-col-8 {
+    @include grid-column(8, $small-neat-grid);
+}
+
+.md-col-1 {
+    @include grid-column(1, $medium-neat-grid);
+}
+
+.md-col-2 {
+    @include grid-column(2, $medium-neat-grid);
+}
+
+.md-col-3 {
+    @include grid-column(3, $medium-neat-grid);
+}
+
+.md-col-4 {
+    @include grid-column(4, $medium-neat-grid);
+}
+
+.md-col-5 {
+    @include grid-column(5, $medium-neat-grid);
+}
+
+.md-col-6 {
+    @include grid-column(6, $medium-neat-grid);
+}
+
+.md-col-7 {
+    @include grid-column(7, $medium-neat-grid);
+}
+
+.md-col-8 {
+    @include grid-column(8, $medium-neat-grid);
+}
+
+.md-col-9 {
+    @include grid-column(9, $medium-neat-grid);
+}
+
+.md-col-10 {
+    @include grid-column(10, $medium-neat-grid);
+}
+
+.md-col-11 {
+    @include grid-column(11, $medium-neat-grid);
+}
+
+.md-col-12 {
+    @include grid-column(12, $medium-neat-grid);
+}
+
+.lg-col-1 {
+    @include grid-column(1, $large-neat-grid);
+}
+
+.lg-col-2 {
+    @include grid-column(2, $large-neat-grid);
+}
+
+.lg-col-3 {
+    @include grid-column(3, $large-neat-grid);
+}
+
+.lg-col-4 {
+    @include grid-column(4, $large-neat-grid);
+}
+
+.lg-col-5 {
+    @include grid-column(5, $large-neat-grid);
+}
+
+.lg-col-6 {
+    @include grid-column(6, $large-neat-grid);
+}
+
+.lg-col-7 {
+    @include grid-column(7, $large-neat-grid);
+}
+
+.lg-col-8 {
+    @include grid-column(8, $large-neat-grid);
+}
+
+.lg-col-9 {
+    @include grid-column(9, $large-neat-grid);
+}
+
+.lg-col-10 {
+    @include grid-column(10, $large-neat-grid);
+}
+
+.lg-col-11 {
+    @include grid-column(11, $large-neat-grid);
+}
+
+.lg-col-12 {
+    @include grid-column(12, $large-neat-grid);
+}
+
+.xlg-col-1 {
+    @include grid-column(1, $extra-large-neat-grid);
+}
+
+.xlg-col-2 {
+    @include grid-column(2, $extra-large-neat-grid);
+}
+
+.xlg-col-3 {
+    @include grid-column(3, $extra-large-neat-grid);
+}
+
+.xlg-col-4 {
+    @include grid-column(4, $extra-large-neat-grid);
+}
+
+.xlg-col-5 {
+    @include grid-column(5, $extra-large-neat-grid);
+}
+
+.xlg-col-6 {
+    @include grid-column(6, $extra-large-neat-grid);
+}
+
+.xlg-col-7 {
+    @include grid-column(7, $extra-large-neat-grid);
+}
+
+.xlg-col-8 {
+    @include grid-column(8, $extra-large-neat-grid);
+}
+
+.xlg-col-9 {
+    @include grid-column(9, $extra-large-neat-grid);
+}
+
+.xlg-col-10 {
+    @include grid-column(10, $extra-large-neat-grid);
+}
+
+.xlg-col-11 {
+    @include grid-column(11, $extra-large-neat-grid);
+}
+
+.xlg-col-12 {
+    @include grid-column(12, $extra-large-neat-grid);
+}

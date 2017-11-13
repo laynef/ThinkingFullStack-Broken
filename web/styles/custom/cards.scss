@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    height: auto;
+}
+
+.dark-card {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    background-color: #E4EAEC;
+    height: auto;
+}
+
+.card-header {
+    border-bottom: 1px solid #ccc;
+    background-color: #E4EAEC;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 15px 20px 0;
+}
+
+.card-body {
+    background-color: $white;
+    padding: 20px;
+    height: 100%;
+}
+
+.card-footer {
+    border-top: 1px solid #ccc;
+    background-color: #E4EAEC;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

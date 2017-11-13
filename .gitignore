@@ -1,0 +1,7 @@
+node_modules
+.vscode
+package-lock.json
+server.js
+assets/css/client.css
+assets/dist/client.js
+assets/dist/client.min.css

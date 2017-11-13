@@ -1,0 +1,204 @@
+.logo-span {
+    font-size: 18px;
+}
+.auth-layout {
+    @media (max-width: $small-screen) {
+        opacity: 0 !important;
+        height: 0 !important;
+        width: 0 !important;
+    }
+}
+.dashboard-link {
+    a, span, img {
+        color: black;
+        &:hover {
+            color: $red;
+        }
+    }
+}
+.template-pros {
+    @media (max-width: $small-screen) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.template-cons {
+    @media (max-width: $small-screen) {
+        width: 100%;
+        padding: 5px 10px;
+        h3 {
+            display: flex;
+            justify-content: flex-start;
+        }
+        ul {
+            padding: 0 25px 10px 25px !important;
+        }
+    }
+    @media (min-width: $small-screen) {
+        width: 50%;
+    }
+}
+.contactUs {
+    @media (max-width: $extra-small-screen) {
+        opacity: 0 !important;
+        height: 0 !important;
+        width: 0 !important;
+    }
+}
+.sidebar {
+    @media (min-width: $small-screen) {
+        height: 100vh !important;
+    }
+}
+.mobileHeads {
+    @media (max-width: $small-screen) {
+        height: 200px !important;
+        text-align: center;
+    }
+}
+.example-margin {
+    margin: 25px 0;
+}
+.mobileFoot {
+    @media (max-width: $small-screen) {
+        height: auto !important;
+    }
+    @media (min-width: $extra-small-screen) and (max-width: $small-screen) {
+        height: 400px !important;
+    }
+}
+.mobileFull {
+    @media (max-width: $extra-small-screen) {
+        height: auto !important;
+    }
+}
+.mobileOneDiv {
+    @media (max-width: $small-screen) {
+        width: 100% !important;
+        padding: 20px 0;
+    } 
+}
+.dashboardMobile {
+    @media (max-width: $small-screen) {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 650px !important;
+
+        h2 {
+            text-align: center;
+            height: 20% !important;
+            width: 100% !important;
+        }
+
+        ul, li {
+            width: 100vw !important;
+            padding: 0 25px !important;
+            height: 80% !important;
+        }
+    }
+}
+.mobile-menu-open {
+    @media (max-width: $small-screen) {
+        height: 100vh !important;
+        width: 100% !important;
+        position: absolute;
+        z-index: 50;
+        margin: -17px 0;
+    }
+}
+.centeredLink {
+    @media (max-width: $small-screen) and (min-width: $extra-small-screen) {
+        display: flex;
+        align-content: center;
+    }
+}
+.mobile-button {
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.mobile-menu {
+    @media (max-width: $small-screen) {
+        opacity: 1 !important;
+        position: fixed;
+        z-index: 100;
+        background-color: $white;
+        border-bottom: 1px solid #aaa ;
+    }
+    @media (min-width: $small-screen) {
+        opacity: 0 !important;
+        z-index: 0;
+        height: 0 !important;
+    }
+}
+.mobile-width {
+    @media (max-width: $small-screen) {
+        width: 100% !important;
+        height: auto !important;
+    }
+    @media (min-width: $small-screen) {
+        width: 80% !important;
+    }
+}
+.mobile-logo {
+    height: 50px;
+    width: 50px;
+}
+.mobile-height {
+    height: 75px;
+}
+.black-text {
+    color: $dark-gray;
+}
+.sidebar-span {
+    height: 80px;
+    width: 100%;
+    background-color: #E4EAEC;
+}
+.sidebar-link {
+    height: 60px;
+    width: 100%;
+    background-color: $white;
+}
+.dashboard-height {
+    height: 145%;
+}
+.header-wrapper {
+    padding: 20px;
+}
+.master-wrapper {
+    @media (max-width: $small-screen) {
+        padding: 30px 0 0 0;
+    }
+    @media (min-width: $small-screen) {
+        padding: 50px;
+    }
+}
+.disabled {
+    display: none;
+}
+.heading-32 {
+    font-size: 32px;
+}
+.heading-24 {
+    font-size: 24px;
+}
+.ul {
+    padding-left: 75px;
+    padding-right: 75px;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.intro {
+    height: auto;
+    padding-top: 20px;
+}
+.definition-wrapper {
+    padding: 15px 25px;
+}
+.dashboard-image {
+    background-image: url(#{$host}img/layne-web.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

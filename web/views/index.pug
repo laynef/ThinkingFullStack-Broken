@@ -1,0 +1,35 @@
+doctype html
+html(lang='en-us')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+        meta(name='og:description', content='Learning how to think like a full stack developer. Understanding all aspects of the stack while developing with the best morden practices to best exceed business needs and goals.')
+        meta(name='og:author', content='Layne Faler')
+        meta(property='og:type', content='website')
+        meta(http-equiv='cache-control', content='public')
+        meta(http-equiv='language', content='en-us')
+        meta(name='robots', content='all')
+        meta(property='og:site_name', content='ThinkingFullStack')
+        meta(property='og:url', content='https://www.thinkingfullstack.com')
+        meta(name='viewport' content='user-scalable=no, width=device-width')
+        meta(property='og:image', content='/assets/img/layne-web.jpg')
+        meta(name='apple-mobile-web-app-capable', content='yes')
+        meta(name='apple-mobile-web-app-status-bar-style', content='black')
+        meta(property='keywords', content='javascript, fullstack, front end, back end, technology, web development, front end development, back end development, full stack development, development, mobile development, react.js, node.js, express.js, redux.js, server side javascript')
+        title='Thinking Full Stack'
+        link(rel='apple-touch-icon' href='/assets/img/layne-web.jpg')
+        link(rel='apple-touch-startup-image' href='/assets/img/layne-web.jpg')
+        link(type='image/x-icon', rel='apple-touch-icon-precomposed', href='/assets/img/favicon.ico')
+        link(type='image/x-icon', rel='shortcut icon', href='/assets/img/favicon.ico')
+        link(type='image/x-icon', rel='icon', href='/assets/img/favicon.ico')
+        link(href='/assets/dist/client.min.css?id=14', rel='stylesheet' type='text/css')
+    body
+        #app!=reactApp
+        script.
+            window.__data = JSON.parse('#{redux}'.replace(/&(lt|gt|quot);/g, '"'));
+        script(src='/assets/dist/client.js?id=14')
+        noscript
+            .bubble
+                p='JavaScript must be enabled'
+                

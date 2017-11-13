@@ -1,0 +1,22 @@
+$host: '/assets/';
+
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'base/base';
+@import './font-awesome/scss/font-awesome';
+
+// Custom Globals
+@import './custom/global';
+@import './custom/colors';
+@import './custom/cards';
+
+// Components
+@import './custom/header';
+
+// Pages
+@import './custom/publicPage';
+@import './custom/authPages';
+@import './custom/signup';
+@import './custom/notFound';
+@import './custom/errorPage';
+

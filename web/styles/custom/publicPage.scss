@@ -1,0 +1,444 @@
+#PublicPage {
+    width: 100%;
+    height: auto;
+
+    .slideIn {
+        left: 0 !important;
+    }
+
+    .animation {
+        left: -50rem;
+        position: relative;
+        transition: left 100ms ease-in-out;
+    }
+
+    .homepageImage {
+        background-image: url(#{$host}img/layne-web.jpg);
+        width: 100%;
+        background-size: cover;
+
+        @media (max-width: $small-screen) {
+            background-image: none !important;
+            height: 625px !important;
+        }
+
+        height: 750px;
+
+        h1 {
+            color: $white;
+            font-size: 44px;
+            margin-bottom: 0;
+
+            @media (max-width: $small-screen) {
+                padding: 0 ($wrapper / 2);
+                text-align: center;
+            }
+
+        }
+
+        h2 {
+            color: $orange;
+            font-size: 33px;
+
+            @media (max-width: $small-screen) {
+                width: 100% !important;
+                text-align: center;
+            }
+        }
+
+        p {
+            color: $white;
+            font-size: 18px;
+
+            @media (max-width: $small-screen) {
+                width: 100% !important;
+                text-align: center;
+            }
+        }
+
+        .buttonDiv {
+            padding: 20px 50px;
+            @media (max-width: $small-screen) {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .button  {
+            border-radius: 25px;
+            width: 250px;
+            height: 40px;
+        }
+
+        .overlay {
+            float: left;
+            height: 100%;
+            opacity: 0.9;
+            background: linear-gradient($red, rgba(172, 9, 9, 0.25));
+
+            @media (max-width: $small-screen) {
+                width: 100% !important;
+            }
+
+            @media (min-width: $small-screen) and (max-width: $medium-screen) {
+                width: 70%;
+                padding: 0 ($wrapper * 1.5) 0 0;
+                clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -webkit-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -moz-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -ms-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -o-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+            }
+
+            @media (min-width: $medium-screen) {
+                width: 60%;
+                padding: 0 ($wrapper * 2.5) 0 0;
+                clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -webkit-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -moz-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -ms-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+                -o-clip-path: polygon(0% 348%, 100% 0%, 0% 0%);
+            }
+
+        }
+
+    }
+
+    .padder {
+        background-color: $lightest-gray;
+        height: 80px;
+        width: 100%;
+
+        .button {
+            width: 200px;
+            border-radius: 25px;
+        }
+    }
+
+    .technologyUsed {
+        background-color: $white;
+        // height: auto;
+        
+        @media (max-width: $small-screen) {
+            height: 1200px;
+        }
+
+        @media (min-width: $small-screen) {
+            height: 650px;
+        }
+
+        padding: $wrapper;
+
+        h1 {
+            font-size: 38px;
+
+            @media (max-width: $small-screen) {
+                text-align: center;
+            }
+
+        }
+
+        .techDiv {
+
+            @media (max-width: $small-screen) {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            @media (min-width: $small-screen) {
+                flex-direction: row;
+                display: flex;
+                justify-content: space-around;
+            }
+
+        }
+
+        .oneTechDiv {
+
+            @media (max-width: $small-screen) {
+                height: 500px;
+            }
+
+        }
+
+        h2 {
+            width: 100%;
+            font-size: 27px;
+        }
+
+        ul, li {
+            width: 100%;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        .images {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+        }
+    }
+
+    .deviceSection {
+        background-image: url(#{$host}img/devices.jpg);
+        background-size: cover;
+        width: 100%;
+
+        .overlay-device {
+            background-color: rgba(255,255,255,0.35);
+            z-index: 2;
+            padding: 10px;
+            @media (min-width: $small-screen) {
+                width: 60%;
+            }
+        }
+
+        @media (max-width: $small-screen) {
+            padding: ($wrapper / 2);
+            height: auto;
+        }
+
+        @media (min-width: $small-screen) {
+            padding: ($wrapper);
+            height: 600px;
+        }
+
+        h1 {
+            font-size: 33px;
+            color: #333;
+            text-shadow: 1px 1px #ccc;
+        }
+
+        ul, li {
+            font-size: 24px;
+            color: #444;
+            text-shadow: 0.5px 0.5px #ccc;
+        }
+
+        ul {
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+
+    }
+
+    // .videoSection {
+    //     height: 1200px;
+    //     width: 100%;
+    //     background-color: $lightest-gray;
+    // }
+
+    .whatYouLearnSection {
+        background-color: $white;
+        background-image: url(#{$host}img/learning.jpg);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+        .learning-overlay {
+            background-color: rgba(255,255,255,0.15);
+            z-index: 10;
+            padding: 10px;
+            @media (min-width: $small-screen) {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: $small-screen) {
+            padding: ($wrapper / 2);
+        }
+        @media (min-width: $small-screen) {
+            padding: ($wrapper);
+        }
+
+        h1 {
+            font-size: 33px;
+            color: #ccc;
+            text-shadow: 1px 1px #777;
+            @media (max-width: $small-screen) {
+                padding: ($wrapper / 2);
+                text-align: center;
+            }
+        }
+
+        ul, li {
+            font-size: 24px;
+            color: #eee;
+            text-shadow: 2px 2px #777;
+        }
+
+        ul {
+            list-style-type: disc;
+            list-style-position: inside;
+            @media (max-width: $small-screen) {
+                padding: 0 ($wrapper / 2);
+            }
+        }
+
+    }
+
+    .whyWeDoItSection {
+        background-image: url(#{$host}img/whyWeDoIt.jpg);
+        background-size: cover;
+        width: 100%;
+        // height: 800px;
+
+        @media (max-width: $small-screen) {
+            height: auto;
+            padding: ($wrapper / 2);
+        }
+
+        @media (min-width: $small-screen) {
+            padding: ($wrapper);
+            height: 750px;
+        }
+
+        .why-overlay {
+            background-color: rgba(255,255,255,0.3);
+            z-index: 10;
+            padding: 20px;
+            @media (min-width: $small-screen) {
+                width: 75%;
+            }
+        }
+
+        h1 {
+            font-size: 33px;
+            color: #333;
+            text-shadow: 1px 1px #aaa;
+        }
+
+        ul, li {
+            font-size: 24px;
+            color: #555;
+            text-shadow: 0.5px 0.5px #999;
+        }
+
+        ul {
+            list-style-type: disc;
+            list-style-position: inside;
+            // width: 60%;
+            @media (max-width: $small-screen) {
+                width: 100%;
+            }
+            @media (min-width: $small-screen) {
+                width: 60%;
+            }
+        }
+
+    }
+
+    .lastJoinSection {
+        height: 80px;
+        width: 100%;
+        background-color: $white;
+
+        .button {
+            width: 200px;
+            border-radius: 25px;
+        }
+        
+    }
+
+    .footerSection {
+        height: 300px;
+        width: 100%;
+        background-color: $lightest-gray;
+        // padding: $wrapper;
+        @media (max-width: $small-screen) {
+            padding: ($wrapper / 2);
+        }
+
+        @media (min-width: $small-screen) {
+            padding: ($wrapper);
+        }
+
+        h1 {
+            font-size: 33px;
+        }
+
+        h2 {
+            @media (max-width: $small-screen) {
+                text-align: center;
+            }
+        }
+
+        .iconsDiv {
+            width: 20%;
+            @media (max-width: $small-screen) {
+                width: 50%;
+            }
+        }
+
+        .linkColor {
+            color: #82bef2;
+            font-size: 18px;
+        }
+
+        .wrapper {
+            padding: 25px;
+        }
+
+        .googleDiv {
+            background-color: $google;
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+        }
+
+        .linkedinDiv {
+            background-color: $linkedin;
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+        }
+
+        .githubDiv {
+            background-color: $white;
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+        }
+
+        a {
+            transition: none !important;
+            text-decoration: none !important;
+        }
+
+        .white {
+            color: $white !important;
+            a {
+                color: $white !important;
+                &:hover {
+                    color: shade($white, 25%);
+                }
+            }
+        }
+
+        .grey {
+            color: $dark-gray !important;
+            a {
+                color: $dark-gray !important;
+                &:hover {
+                    color: shade(#555, 25%);
+                }
+            }
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: 36px;
+        }
+    }
+
+}
+

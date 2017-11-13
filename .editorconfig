@@ -1,0 +1,8 @@
+# top-most EditorConfig file
+root = true
+
+# Indentation override for all JS under resources/assets/js directory
+[**]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace=true

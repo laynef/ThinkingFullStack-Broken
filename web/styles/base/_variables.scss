@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+// Breakpoints
+$extra-small-screen: 480px;
+$small-screen: 960px;
+$medium-screen: 1280px;
+$large-screen: 1600px;
+$extra-large-screen: 1920px;
+
+// Typography
+$base-font-family: 'Raleway', sans-serif;
+// $code-font-family: 'Roboto Condensed', sans-serif;
+$code-font-family: 'Lato', sans-serif;
+$heading-font-family: $base-font-family;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+$wrapper: 50px;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$lightest-gray: #ebebeb;
+$white: #fff;
+$orange: #ffa12d;
+$red: #D42A2A;
+
+// Social Media
+$facebook : #35568c;
+$twitter : #39a0ce;
+$linkedin : #1d638a;
+$google : #cd4f43;
+$youtube : #db3539;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $red;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+
+$extra-small-neat-grid: (
+    columns: 4,
+    gutter: 16px,
+    media: $extra-small-screen,
+);
+
+$small-neat-grid: (
+    columns: 8,
+    gutter: 24px,
+    media: $small-screen,
+);
+
+$medium-neat-grid: (
+    columns: 12,
+    gutter: 24px,
+    media: $medium-screen,
+);
+
+$large-neat-grid: (
+    columns: 12,
+    gutter: 24px,
+    media: $large-screen,
+);
+
+$extra-large-neat-grid: (
+    columns: 12,
+    gutter: 24px,
+    media: $extra-large-screen,
+);

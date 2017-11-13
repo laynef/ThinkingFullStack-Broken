@@ -1,0 +1,22 @@
+#NotFoundPage {
+
+    width: 100%;
+    height: 100%;
+
+    .fullBackDiv {
+        background-image: url(#{$host}img/layne-web.jpg);
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: $wrapper;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+}
